@@ -1,0 +1,38 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: calc(100%/12);
+}
+.col-2{
+    width: calc(100%/6);
+}
+.col-3{
+    width: calc(100%/4);
+}
+.col-4{
+    width: calc(100%/3);
+}
+.col-6{
+    width: calc(100%/2);
+}
+.col-12{
+    width: calc(100%/1);
+}
+
+@media (max-width: 980px){
+    .col-md-4{
+        width: calc(100% /3);
+    }
+}
+@media(max-width:610px){
+    .col-sm-6{
+        width: calc(100%/2);
+    }
+}
+@media(max-width:200px){
+    .col-sm-12{
+        width: calc(100%/1);
+    }
+}
